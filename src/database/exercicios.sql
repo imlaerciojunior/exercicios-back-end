@@ -7,7 +7,7 @@ CREATE TABLE videos (
     duracao REAL NOT NULL,
     data_update DATETIME DEFAULT (strftime('%Y-%m-%d %H:%M:%S', 'now', 'localtime'))
 )
-
+ 
 INSERT INTO videos (id, titulo, duracao)
 VALUES
     ('v001', 'bom dia o sol na fazendinha', 120),
