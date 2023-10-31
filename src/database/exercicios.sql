@@ -14,3 +14,17 @@ VALUES
     ('v002', 'video de aprendizagem SQL', 350);
 
 SELECT * FROM videos;
+
+CREATE TABLE super_heroes (
+    id TEXT PRIMARY KEY UNIQUE NOT NULL,
+    name TEXT NOT NULL,
+    titulo TEXT NOT NULL
+)
+
+INSERT INTO super_heroes (id, name, titulo)
+VALUES
+    ('h001', 'Homem-Aranha', 'Marvel'),
+    ('h002', 'Hulk', 'Marvel'),
+    ('h003', 'Coringa', 'DC');
+
+SELECT * FROM super_heroes;
